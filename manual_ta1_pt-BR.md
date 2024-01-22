@@ -16,10 +16,10 @@ Você precisa da Pilha de Carvão para fazer carvão. O carvão é necessário p
 
 Para o queimador de carvão, você precisa de:
 
-* Um bloco de acendedor (techage:lighter)
+* Um bloco de acendedor ('techage:lighter')
 * 26 blocos de madeira empilhados para formar um monte de madeira. O tipo de madeira é irrelevante.
 * Terra para cobrir o monte de madeira
-* Pedra lascada e Ferro (nome técnico: fire:flint_and_steel) para acender o bloco de acendedor
+* Pedra lascada e Ferro (nome técnico: 'fire:flint_and_steel') para acender o bloco de acendedor
 
 Instruções de construção (veja também o plano):
 
