@@ -1,127 +1,100 @@
-# Tech Age Mod
+# Mod Tech Age
+O Tech Age é um mod de tecnologia com 5 estágios de desenvolvimento:
 
-Tech Age is a technology mod with 5 development stages:
+## TA1: Idade do Ferro
+Utilize ferramentas e instrumentos auxiliares como queimadores de carvão, peneiras de cascalho, martelos e funis para extrair e processar minérios e metais necessários.
 
-TA1: Iron Age  
-Use tools and aids such as coal burners, coal burners, gravel sieves, hammers and hoppers to mine and process the necessary ores and metals.
+## TA2: Idade do Vapor
+Construa uma máquina a vapor com eixos de transmissão e use-a para operar suas primeiras máquinas de processamento de minérios.
 
-TA2: Steam Age  
-Build a steam engine with drive axles and use it to operate your first ore processing machines.
+## TA3: Idade do Petróleo
+Encontre e extraia óleo, construa ferrovias para transporte de óleo. Uma usina fornece a eletricidade necessária para suas máquinas. A luz elétrica ilumina suas instalações industriais.
 
-TA3: Oil Age  
-Find and extract oil, built railways for oil transportation. A power plant provides the necessary electricity for your machines. Electric light illuminates your industrial plants.
+## TA4: Tempos atuais (Presente)
+Fontes de energia renovável, como vento, sol e biocombustíveis, ajudam você a sair da era do petróleo. Com tecnologias modernas e máquinas inteligentes, você parte para o futuro.
 
-TA4: Present  
-Renewable energy sources such as wind, sun and bio-fuels help you to leave the oil age. With modern technologies and intelligent machines you set out into the future.
+## TA5: Futuro
+Máquinas para superar espaço e tempo, novas fontes de energia e outras conquistas moldam sua vida.
 
-TA5: Future  
-Machines to overcome space and time, new sources of energy and other achievements shape your life.
+Nota: Clicando no sinal de adição, você acessa os subcapítulos deste manual.
 
+[techage_ta4|imagem]
 
-Note: With a click on the plus sign you get into the sub-chapters of this manual.
+# Dicas
+Esta documentação está disponível tanto "dentro do jogo" (plano de construção de blocos) quanto no GitHub como arquivos MD.
 
-[techage_ta4|image]
+* Link: https://github.com/joe7575/techage/wiki
+Os planos de construção (diagramas) para a construção das máquinas e as imagens estão disponíveis apenas no jogo.
 
+Com o Tech Age, você precisa começar do zero. Você só pode criar blocos TA2 com os itens do TA1, para o TA3 você precisa dos resultados do TA2, e assim por diante.
 
+No TA2, as máquinas só funcionam com eixos de transmissão.
 
-## Hints
+A partir do TA3, as máquinas funcionam com eletricidade e têm uma interface de comunicação para controle remoto.
 
-This documentation is available both "ingame" (block construction plan) and on GitHub as MD files.
+O TA4 adiciona mais fontes de energia, mas também desafios logísticos mais altos (linhas de energia, transporte de itens).
 
-- Link: https://github.com/joe7575/techage/wiki
+# Mudanças a partir da versão 1.0
+A partir da V1.0 (17/07/2021), as seguintes alterações foram feitas:
 
-The construction plans (diagrams) for the construction of the machines and the pictures are only available in-game.
+* O algoritmo para calcular a distribuição de energia foi alterado. Isso torna os sistemas de armazenamento de energia mais importantes. Eles compensam as flutuações, o que é importante em redes maiores com vários geradores.
+* Por esse motivo, o TA2 recebeu seu próprio sistema de armazenamento de energia.
+* Os blocos de bateria do TA3 também servem como armazenamento de energia. Sua funcionalidade foi adaptada de acordo.
+* O sistema de armazenamento do TA4 foi revisado. O permutador de calor recebeu um novo número porque a funcionalidade foi movida do bloco inferior para o bloco central. Se eles estiverem sendo controlados remotamente, o número do nó deve ser adaptado. Os geradores não têm mais um menu próprio, mas são ligados/desligados apenas através do permutador de calor. O permutador de calor e o gerador agora devem estar conectados à mesma rede!
+* Vários sistemas de energia podem agora ser acoplados via blocos transformadores TA4.
+* Um novo bloco medidor de eletricidade TA4 para sub-redes também foi adicionado.
+* Pelo menos um bloco de bateria ou um sistema de armazenamento em cada rede.
 
-With Tech Age you have to start over. You can only create TA2 blocks with the items from TA1, for TA3 you need the results from TA2, etc.
+## Dicas sobre a troca
+Muitos outros blocos receberam alterações menores. Portanto, é possível que máquinas ou sistemas não reiniciem imediatamente após a troca. Em caso de falhas, as seguintes dicas ajudarão:
 
-In TA2, the machines only run with drive axes.
+* Desligue e ligue as máquinas novamente.
+* Remova um bloco de cabo de energia e coloque-o de volta no lugar.
+* Remova completamente o bloco e coloque-o de volta no lugar.
 
-From TA3, the machines run on electricity and have a communication interface for remote control.
+# Minérios e Minerais
+Techage adiciona novos itens ao jogo:
 
-TA4 adds more power sources, but also higher logistical challenges (power lines, item transport).
+* Meridium - uma liga para a produção de ferramentas luminosas no TA1
+* Usmium - um minério que é extraído no TA2 e necessário para o TA3
+* Baborium - um metal necessário para receitas no TA3
+* Petróleo - necessário no TA3
+* Bauxita - um minério de alumínio necessário no TA4 para produzir alumínio
+* Basalto - surge quando água e lava se encontram
 
+## Meridium
+O Meridium é uma liga de aço e cristais de mesecons. Lingotes de Meridium podem ser feitos com a caldeira a carvão a partir de aço e cristais de mesecons. O Meridium brilha no escuro. Ferramentas feitas de Meridium também emitem luz e são, portanto, muito úteis na mineração subterrânea.
 
+[meridium|imagem]
 
-## Changes from version 1.0
+## Usmium
+O Usmium ocorre apenas como pepitas e só pode ser obtido lavando cascalho com o sistema de lavagem de cascalho TA2/TA3.
 
-From V1.0 (07/17/2021) the following has changed:
+[usmium|imagem]
 
-- The algorithm for calculating the power distribution has changed. This makes energy storage systems more important. These compensate for fluctuations, which is important in larger networks with several generators.
-- For this reason TA2 got its own energy storage.
-- The battery blocks from TA3 also serve as energy storage. Their functionality has been adapted accordingly.
-- The TA4 storage system has been revised. The heat heat exchanger have been given a new number because the functionality has been moved from the lower to the middle block. If these were remotely controlled, the node number must be adapted. The generators no longer have their own menu, but are only switched on / off via the heat exchanger. The heat exchanger and generator must now be connected to the same network!
-- Several power grids can now be coupled via a TA4 transformer blocks.
-- A TA4 electricity meter block for sub-networks is also new.
-- At least one battery block or a storage system in each network
+## Baborium
+O Baborium só pode ser obtido através da mineração subterrânea. Essa substância só pode ser encontrada a uma profundidade de -250 a -340 metros.
 
+O Baborium só pode ser derretido na Fornalha Industrial TA3.
 
-### Tips on switching
+[baborium|imagem]
 
-Many more blocks have received minor changes. It is therefore possible that machines or systems do not start up again immediately after the changeover. In the event of malfunctions, the following tips will help:
+## Petróleo
+O Petróleo só pode ser encontrado com a ajuda do Explorer e extraído com a ajuda de máquinas apropriadas do TA3. Veja TA3.
 
-- Switch machines off and on again
-- remove a power cable block and put it back in place
-- remove the block completely and put it back in place
+[oil|imagem]
 
+## Bauxita
+A Bauxita é extraída apenas na mineração subterrânea. A Bauxita só é encontrada na pedra a uma altura entre -50 e -500 metros.
+É necessária para a produção de alumínio, que é principalmente usada no TA4.
 
+[bauxite|imagem]
 
-## Ores and Minerals
-
-Techage adds some new items to the game:
-
-- Meridium - an alloy for the production of luminous tools in TA1
-- Usmium - an ore that is mined in TA2 and needed for TA3
-- Baborium - a metal that is needed for recipes in TA3
-- Petroleum - is needed in TA3
-- Bauxite - an aluminum ore that is needed in TA4 to produce aluminum
-- Basalt - arises when water and lave touch
-
-
-### Meridium
-
-Meridium is an alloy of steel and mesecons crystals. Meridium ingots can be made with the coal burner from steel and mesecons crystals. Meridium glows in the dark. Tools made of Meridium also light up and are therefore very helpful in underground mining.
-
-[meridium|image]
-
-
-### Usmium
-
-Usmium only occurs as nuggets and can only be obtained by washing gravel with the TA2/TA3 gravel washing system.
-
-[usmium|image]
-
-
-### Baborium
-
-Barborium can only be obtained from underground mining. This substance can only be found at a depth of -250 to -340 meters.
-
-Baborium can only be melted in the TA3 Industrial Furnace.
-
-
-[baborium|image]
-
-
-### Petroleum
-
-Petroleum can only be found with the help of the Explorer and extracted with the help of appropriate TA3 machines. See TA3.
-
-[oil|image]
-
-
-### Bauxite
-
-Bauxite is only extracted in underground mining. Bauxite is only found in stone at a height between -50 and -500 meters.
-It is required for the production of aluminum, which is mainly used in TA4.
-
-[bauxite|image]
-
-
-### Basalt
-
-Basalt is only created when lava and water come together.
-The best thing to do is to set up a system where a lava and a water source flow together.
-Basalt is formed where both liquids meet.
-You can build an automated basalt generator with the Sign Bot.
+## Basalto
+O Basalto só é criado quando lava e água se encontram.
+A melhor coisa a fazer é montar um sistema onde uma fonte de lava e uma fonte de água se encontram.
+O Basalto é formado onde ambos os líquidos se encontram.
+Você pode construir um gerador automático de basalto com o Sign Bot.
 
 [basalt|image]
 
