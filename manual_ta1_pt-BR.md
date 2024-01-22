@@ -1,4 +1,4 @@
-TA1: Idade do Ferro
+#TA1: Idade do Ferro
 TA1 trata da extração de minérios suficientes e da produção de carvão com ferramentas e equipamentos simples, para que as máquinas TA2 possam ser fabricadas e operadas.
 
 É claro que, para uma Idade do Ferro, deve haver ferro e não apenas aço, como em "Minetest Game". Como resultado, algumas receitas foram alteradas para que o ferro precise ser produzido primeiro e, posteriormente, o aço.
