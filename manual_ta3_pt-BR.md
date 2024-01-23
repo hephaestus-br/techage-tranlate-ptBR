@@ -6,7 +6,7 @@ Para fazer isso, é necessário construir usinas termelétricas a carvão e gera
 
 A era industrial está em seu auge.
 
-.[techage_ta3|image].
+[techage_ta3|image]
 
 ## Usina Termelétrica a Carvão / Usina Termelétrica a Óleo
 
