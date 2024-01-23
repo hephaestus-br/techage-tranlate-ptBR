@@ -795,9 +795,70 @@ A capacidade de processamento é de 2 itens a cada 4 segundos. O bloco requer 6 
 
 [ta3_grinder|imagem]
 
+### TA3 Injetor
+
+O injetor é um TA3 pusher com propriedades especiais. Ele possui um menu para configuração. Até 8 itens podem ser configurados aqui. Ele apenas pega esses itens de um baú para passá-los para as máquinas com receitas (autocrafter, forno industrial e electronic fab).
+
+Ao passar, apenas uma posição no inventário é usada na máquina de destino. Se, por exemplo, apenas as três primeiras entradas estiverem configuradas no injetor, apenas as três primeiras posições de armazenamento no inventário da máquina serão usadas. Isso evita o transbordamento no inventário da máquina.
+
+O injetor também pode ser alternado para o "modo pull". Então ele apenas retira itens do baú das posições que estão definidas na configuração do injetor. Nesse caso, o tipo e a posição do item devem corresponder. Isso permite esvaziar entradas específicas do inventário de um baú.
+
+A capacidade de processamento é de até 8 vezes um item a cada 4 segundos.
+
+[ta3_injector|imagem]
 
 
+## Ferramentas
 
+### Techage Info Tool
+
+O Techage Info Tool (chave inglesa de ponta aberta) possui várias funções. Ele mostra a hora, posição, temperatura e bioma quando um bloco desconhecido é clicado.
+Se você clicar em um bloco TechAge com interface de comando, todos os dados disponíveis serão mostrados (consulte também "Blocos lógicos / de comutação").
+
+Com Shift + clique direito, um menu estendido pode ser aberto para alguns blocos. Dependendo do bloco, dados adicionais podem ser chamados ou configurações especiais podem ser feitas aqui. No caso de um gerador, por exemplo, a curva de carga/desligamento pode ser programada.
+
+[chave_inglesa_techage|imagem]
+
+### TechAge Programmer (Programador)
+
+Com o programador, números de bloco podem ser coletados de vários blocos com um clique direito e gravados em um bloco como um botão / interruptor com um clique esquerdo.
+Se você clicar no ar, a memória interna é apagada.
+
+[programador_techage|imagem]
+
+### TechAge Trowel / Trowel
+
+A colher de pedreiro é usada para revestir cabos de energia. Veja também "Cabo de energia TA".
+
+[colher_pedreiro_techage|imagem]
+
+### TA3 chave de cano de broca
+
+Esta ferramenta pode ser usada para remover blocos de tubo de broca se, por exemplo, um túnel precisar passar por lá.
+
+[chave_broca_ta3|imagem]
+
+### Techage Screwdriver
+
+A chave de fenda Techage serve como substituto da chave de fenda normal. Ela possui as seguintes funções:
+
+- Clique esquerdo: girar o bloco para a esquerda
+- Clique direito: girar a face visível do bloco para cima
+- Shift + clique esquerdo: salvar o alinhamento do bloco clicado
+- Shift + clique direito: aplicar o alinhamento salvo ao bloco clicado
+
+[chave_de_fenda_techage|imagem]
+
+### TechAge Assembly Tool
+
+A TechAge Assembly Tool é usada para remover e reposicionar blocos Techage sem que esses blocos percam seu número de bloco ou recebam um novo número ao serem configurados. Isso é útil, por exemplo, para pedreiras, já que muitas vezes precisam ser movidas.
+
+- Botão esquerdo: remover um bloco
+- Botão direito: configurar um bloco
+
+O bloco que foi removido anteriormente com a ferramenta de montagem e que será colocado novamente deve estar no extremo esquerdo do inventário do jogador.
+
+[ferramenta_montagem_techage|imagem]
 
 
 
