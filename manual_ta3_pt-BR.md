@@ -817,26 +817,26 @@ Se você clicar em um bloco TechAge com interface de comando, todos os dados dis
 
 Com Shift + clique direito, um menu estendido pode ser aberto para alguns blocos. Dependendo do bloco, dados adicionais podem ser chamados ou configurações especiais podem ser feitas aqui. No caso de um gerador, por exemplo, a curva de carga/desligamento pode ser programada.
 
-[chave_inglesa_techage|imagem]
+[ta3_end_wrench|image]
 
 ### TechAge Programmer (Programador)
 
 Com o programador, números de bloco podem ser coletados de vários blocos com um clique direito e gravados em um bloco como um botão / interruptor com um clique esquerdo.
 Se você clicar no ar, a memória interna é apagada.
 
-[programador_techage|imagem]
+[ta3_programmer|image]
 
 ### TechAge Trowel / Trowel
 
 A colher de pedreiro é usada para revestir cabos de energia. Veja também "Cabo de energia TA".
 
-[colher_pedreiro_techage|imagem]
+[ta3_trowel|image]
 
-### TA3 chave de cano de broca
+### TA3 chave de cano 
 
-Esta ferramenta pode ser usada para remover blocos de tubo de broca se, por exemplo, um túnel precisar passar por lá.
+Esta ferramenta pode ser usada para remover blocos de tubo se, por exemplo, um túnel precisar passar por lá.
 
-[chave_broca_ta3|imagem]
+[ta3_drill_pipe_wrench|image]
 
 ### Techage Screwdriver
 
@@ -847,7 +847,7 @@ A chave de fenda Techage serve como substituto da chave de fenda normal. Ela pos
 - Shift + clique esquerdo: salvar o alinhamento do bloco clicado
 - Shift + clique direito: aplicar o alinhamento salvo ao bloco clicado
 
-[chave_de_fenda_techage|imagem]
+[ta3_screwdriver|image] 
 
 ### TechAge Assembly Tool
 
@@ -858,7 +858,7 @@ A TechAge Assembly Tool é usada para remover e reposicionar blocos Techage sem 
 
 O bloco que foi removido anteriormente com a ferramenta de montagem e que será colocado novamente deve estar no extremo esquerdo do inventário do jogador.
 
-[ferramenta_montagem_techage|imagem]
+[techage:assembly_tool|image]
 
 
 
