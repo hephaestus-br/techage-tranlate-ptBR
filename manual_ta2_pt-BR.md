@@ -121,7 +121,7 @@ A capacidade de transporte de um tubo é ilimitada e é limitada apenas pelo pus
 
 Vários tubos podem ser combinados em um único tubo via concentrador. A direção na qual todos os itens são passados é marcada com uma seta. 
 
-[concentrador|imagem]
+[concentrador|image]
 
 ### TA2 Pusher
 
@@ -247,13 +247,13 @@ Algumas receitas requerem água. Para que essas receitas também possam ser proc
 
 A capacidade de processamento é de um balde de água a cada 8s. O liquid sampler requer 3 ku de energia.
 
-[ta2_liquidsampler|imagem]
+[ta2_liquidsampler|image]
 
 ### TA2 Protected Chest
 
 O protected chest só pode ser usado por jogadores que têm permissão de construção neste local, ou seja, que têm direitos de proteção. Não importa quem coloca o baú.
 
-[ta2_chest|imagem]
+[ta2_chest|image]
 
 ### Techage Forceload Block
 
@@ -264,7 +264,7 @@ Com um bloco forceload, você pode forçar o map block em que o bloco forceload 
 Os map blocks com suas coordenadas são predefinidos, por exemplo, (0,0,0) a (15,15,15), ou (16,16,16) a (31,31,31).
 Você pode mover um bloco forceload dentro de um map block como quiser, a posição do map block permanece inalterada.
 
-[ta2_forceload|imagem]
+[ta2_forceload|image]
 
 
 
