@@ -388,7 +388,7 @@ Os seguintes passos são necessários:
 
 Essa sequência deve ser observada em ambos os lados (encher / esvaziar).
 
-[tank_cart | imagem]
+[tank_cart | image]
 
 ### Oil transportation with barrels over Minecarts
 
@@ -412,7 +412,7 @@ O plano mostra como o petróleo pode ser bombeado para um tanque, preenchido em 
 
 Para que os Minecarts reiniciem automaticamente, os blocos para-choque devem ser configurados com o nome da estação e o tempo de espera. 5 segundos são suficientes para descarregar. No entanto, como os empurradores sempre entram em espera por vários segundos quando não há Minecart, um tempo de 15 segundos ou mais deve ser inserido para carregar.
 
-[ta3_loading|plano]
+[ta3_loading|plan]
 
 ### Carrinho-tanque
 
@@ -420,7 +420,7 @@ O carrinho-tanque é usado para transportar líquidos. Assim como os tanques, el
 
 Cabem 200 unidades no caminhão-tanque.
 
-[tank_cart | imagem]
+[tank_cart|image]
 
 ### Carrinho-baú
 
@@ -428,7 +428,7 @@ O carrinho-baú é usado para transportar itens. Assim como os baús, ele pode s
 
 Cabem 4 pilhas no carrinho de baú.
 
-[chest_cart | imagem]
+[chest_cart|image]
 
 
 ## Processamento de Petróleo
@@ -436,7 +436,7 @@ Cabem 4 pilhas no carrinho de baú.
 O petróleo é uma mistura de substâncias e consiste em muitos componentes. O petróleo pode ser decomposto em seus principais componentes, como betume, óleo combustível, nafta, gasolina e gás propano, por meio de uma torre de destilação.
 O processamento adicional para produtos finais ocorre no reator químico.
 
-[techage_ta31|imagem]
+[techage_ta31|image]
 
 ### Torre de Destilação
 
@@ -449,7 +449,7 @@ O reboiler deve ser conectado ao bloco "torre de destilação 1".
 
 O reboiler precisa de eletricidade (não mostrado no plano)!
 
-[ta3_distiller|plano]
+[ta3_distiller|plan]
 
 #### Refervedor(Reboiler)
 
@@ -458,7 +458,7 @@ O reboiler aquece o petróleo para aproximadamente 400 °C. Ele evapora em grand
 O reboiler requer 14 unidades de eletricidade e produz uma unidade de betume, óleo combustível, nafta, gasolina e propano a cada 16s.
 Para isso, o reboiler deve ser alimentado com petróleo por meio de uma bomba.
 
-[reboiler|imagem]
+[reboiler|image]
 
 
 ## Blocos Lógicos / de Comutação
@@ -499,7 +499,7 @@ As respostas possíveis do empurrador são:
 
 Esse status e outras informações também são exibidos quando a chave inglesa(wrench) é clicada no bloco.
 
-[ta3_logic|imagem]
+[ta3_logic|image]
 
 ### TA3 Botão / Interruptor
 O botão/interruptor envia comandos `on` / `off` para os blocos que foram configurados através dos números.
@@ -509,7 +509,7 @@ A caixa de seleção "público" pode ser usada para definir se o botão pode ser
 
 Nota: Com o programador, os números dos blocos podem ser facilmente coletados e configurados.
 
-[ta3_button|imagem]
+[ta3_button|image]
 
 ### TA3 Conversor de Comandos
 
@@ -518,7 +518,7 @@ Deve-se inserir o número do bloco de destino ou os números dos blocos de desti
 
 Os números também podem ser programados usando o programador Techage(programmer).
 
-[ta3_command_converter|imagem]
+[ta3_command_converter|image]
 
 ### TA3 Flip-Flop
 
@@ -526,7 +526,7 @@ O flip-flop TA3 muda de estado a cada comando `on` recebido. Os comandos `off` r
 
 Por exemplo, lâmpadas podem ser ligadas e desligadas com a ajuda de botões.
 
-[ta3_flipflop|imagem]
+[ta3_flipflop|image]
 
 ### Bloco Lógico TA3
 
@@ -568,14 +568,14 @@ Seu próprio número de nó pode ser referenciado usando a palavra-chave `me`. I
 
 O tempo de bloqueio define uma pausa após um comando, durante a qual o bloco lógico não aceita mais comandos externos. Comandos recebidos durante o período de bloqueio são descartados. O tempo de bloqueio pode ser definido em segundos.
 
-[ta3_logic|imagem]
+[ta3_logic|image]
 
 ### TA3 Repetidor
 
 O repetidor envia o sinal recebido para todos os números configurados.
 Isso pode fazer sentido, por exemplo, se você quiser controlar muitos blocos ao mesmo tempo. O repetidor pode ser configurado com o programador, o que não é possível com todos os blocos.
 
-[ta3_repeater|imagem]
+[ta3_repeater|image]
 
 ### TA3 Sequenciador
 
@@ -584,13 +584,13 @@ Até 8 comandos podem ser configurados, cada um com número de bloco de destino 
 O sequenciador repete os comandos indefinidamente quando "Run endless" está ativado.
 Se nada for selecionado, apenas o tempo especificado em segundos é aguardado.
 
-[ta3_sequencer|imagem]
+[ta3_sequencer|image]
 
 ### TA3 Temporizador
 
 O temporizador pode enviar comandos controlados pelo tempo. O horário, o(s) número(s) de destino e o comando em si podem ser especificados para cada linha de comando. Isso significa que as lâmpadas podem ser ligadas à noite e desligadas pela manhã.
 
-[ta3_timer|imagem]
+[ta3_timer|image]
 
 ### TA3 Terminal
 
@@ -611,7 +611,7 @@ No modo privado, o terminal só pode ser usado por jogadores que podem construir
 
 No modo público, todos os jogadores podem usar as teclas preconfiguradas.
 
-[ta3_terminal|imagem]
+[ta3_terminal|image]
 
 
 ### Lâmpada Colorida TechAge
@@ -620,7 +620,7 @@ A lâmpada de sinalização pode ser ligada ou desligada com o comando `on` / `o
 
 Com o comando de chat `/ta_color`, a paleta de cores com os valores para os comandos Lua/Beduino é exibida e com `/ta_send color <num>` a cor pode ser alterada.
 
-[ta3_colorlamp|imagem]
+[ta3_colorlamp|image]
 
 ### Blocos de Porta/Portão
 
@@ -629,13 +629,13 @@ Com esses blocos, você pode criar portas e portões que podem ser abertos por m
 A aparência dos blocos pode ser ajustada por meio do menu de blocos.
 Isso permite a criação de portas secretas que só se abrem para certos jogadores (com a ajuda do detector de jogadores).
 
-[ta3_doorblock|imagem]
+[ta3_doorblock|image]
 
 ### TA3 Controlador de Porta
 
 O controlador de porta é usado para controlar os blocos de porta/portão TA3. Com o controlador de porta, os números dos blocos de porta/portão devem ser inseridos. Se um comando `on` / `off` for enviado para o controlador de porta, isso abre/fecha a porta ou portão.
 
-[ta3_doorcontroller|imagem]
+[ta3_doorcontroller|image]
 
 ### Controlador de Porta TA3 II
 
@@ -653,7 +653,7 @@ O número do slot do inventário (1 .. 16) deve ser passado como carga útil em 
 
 Isso também pode ser usado para simular escadas extensíveis e coisas do tipo.
 
-[ta3_doorcontroller|imagem]
+[ta3_doorcontroller|image]
 
 ### TA3 Bloco de Som
 
@@ -665,7 +665,7 @@ Os sons podem ser selecionados e reproduzidos pelo menu e via comando.
 - Comando `sound <índice>` para selecionar um som via o índice
 - Comando `gain <volume>` para ajustar o volume via o valor `<volume>` (1 a 5).
 
-[ta3_soundblock|imagem]
+[ta3_soundblock|image]
 
 ### TA3 Conversor Mesecons
 
@@ -675,14 +675,14 @@ O conversor Mesecons aceita até 5 comandos por segundo; ele se desativa em carg
 
 **Este nó só existe se o mod mesecons estiver ativo!**
 
-[ta3_mesecons_converter|imagem]
+[ta3_mesecons_converter|image]
 
 
 ## Detectores
 
 Os detectores escaneiam o ambiente e enviam um comando `on` quando a busca é reconhecida.
 
-[ta3_nodedetector|imagem]
+[ta3_nodedetector|image]
 
 
 ### TA3 Detector
@@ -692,7 +692,7 @@ Ele envia um comando `on` quando um item é reconhecido, seguido por um `off` um
 Em seguida, outros comandos são bloqueados por 8 segundos.
 O tempo de espera e os itens que devem acionar um comando podem ser configurados usando o menu de chave inglesa(wrench).
 
-[ta3_detector|imagem]
+[ta3_detector|image]
 
 ### TA3 Cart Detector
 
@@ -700,28 +700,28 @@ O detector de carrinho envia um comando `on` se reconhecer um carrinho (Minecart
 
 O detector também pode ser programado com seu próprio número. Nesse caso, ele empurra todos os vagões que param perto dele (um bloco em todas as direções).
 
-[ta3_cartdetector|imagem]
+[ta3_cartdetector|image]
 
 
 ### TA3 Node Detector
 
 O detector de nó envia um comando `on` se detectar que nós (blocos) aparecem ou desaparecem na frente dele, mas deve ser configurado de acordo. Após retornar o detector ao estado padrão (bloco cinza), um comando `off` é enviado. Blocos válidos são todos os tipos de blocos e plantas, mas não animais ou jogadores. O alcance do sensor é de 3 blocos por metro na direção da seta.
 
-[ta3_nodedetector|imagem]
+[ta3_nodedetector|image]
 
 ### TA3 Detector de jogador(Player detector)
 
 O detector de jogador envia um comando `on` se detectar um jogador dentro de 4m do bloco. Se o jogador sair da área, um comando `off` é enviado.
 Se a pesquisa deve ser limitada a jogadores específicos, esses nomes de jogador também podem ser inseridos.
 
-[ta3_playerdetector|imagem]
+[ta3_playerdetector|image]
 
 ### TA3 Detector de luz(Light detector)
 
 O detector de luz envia um comando `on` se o nível de luz do bloco acima exceder um certo nível, que pode ser definido através do menu de clique direito.
 Se você tiver um Controlador Lua TA4, pode obter o nível exato de luz com $get_cmd(num, 'light_level')
 
-[ta3_lightdetector|imagem]
+[ta3_lightdetector|image]
 
 
 ## Máquinas TA3
@@ -729,7 +729,7 @@ Se você tiver um Controlador Lua TA4, pode obter o nível exato de luz com $get
 TA3 possui as mesmas máquinas que o TA2, apenas estas são mais poderosas e requerem eletricidade em vez de movimento por eixo.
 Portanto, abaixo são fornecidos apenas os dados técnicos diferentes.
 
-[ta3_grinder|imagem]
+[ta3_grinder|image]
 
 
 ### TA3 Pusher 
@@ -737,14 +737,14 @@ Portanto, abaixo são fornecidos apenas os dados técnicos diferentes.
 A função corresponde à do TA2.
 A capacidade de processamento é de 6 itens a cada 2 segundos.
 
-[ta3_pusher|imagem]
+[ta3_pusher|image]
 
 ### TA3 Distributor
 
 A função do Distribuidor TA3 corresponde à do TA2.
 A capacidade de processamento é de 12 itens a cada 4 segundos.
 
-[ta3_distributor|imagem]
+[ta3_distributor|image]
 
 
 ### TA3 Autocrafter
@@ -752,7 +752,7 @@ A capacidade de processamento é de 12 itens a cada 4 segundos.
 A função corresponde à do TA2.
 A capacidade de processamento é de 2 itens a cada 4 segundos. O autocrafter requer 6 ku de eletricidade.
 
-[ta3_autocrafter|imagem]
+[ta3_autocrafter|image]
 
 
 ### TA3 Electronic Fab
@@ -760,14 +760,14 @@ A capacidade de processamento é de 2 itens a cada 4 segundos. O autocrafter req
 A função corresponde à do TA2, apenas os chips WLAN do TA4 são produzidos aqui.
 A capacidade de processamento é de um chip a cada 6 segundos. O bloco requer 12 ku de eletricidade para isso.
 
-[ta3_electronicfab|imagem]
+[ta3_electronicfab|image]
 
 ### TA3 Quarry
 
 A função corresponde à do TA2.
 A profundidade máxima é de 40 metros. A pedreira requer 12 ku de eletricidade.
 
-[ta3_quarry|imagem]
+[ta3_quarry|image]
 
 
 ### TA3 Gravel Sieve
@@ -775,7 +775,7 @@ A profundidade máxima é de 40 metros. A pedreira requer 12 ku de eletricidade.
 A função corresponde à do TA2.
 A capacidade de processamento é de 2 itens a cada 4 segundos. O bloco requer 4 ku de eletricidade.
 
-[ta3_gravelsieve|imagem]
+[ta3_gravelsieve|image]
 
 
 ### TA3 Gravel Rinser
@@ -784,7 +784,7 @@ A função corresponde à do TA2.
 A probabilidade também é a mesma que a do TA2. O bloco também requer 3 ku de eletricidade.
 Mas, ao contrário do TA2, o status do bloco TA3 pode ser lido (controlador)
 
-[ta3_gravelrinser|imagem]
+[ta3_gravelrinser|image]
 
 
 ### TA3 Grinder
@@ -792,7 +792,7 @@ Mas, ao contrário do TA2, o status do bloco TA3 pode ser lido (controlador)
 A função corresponde à do TA2.
 A capacidade de processamento é de 2 itens a cada 4 segundos. O bloco requer 6 ku de eletricidade.
 
-[ta3_grinder|imagem]
+[ta3_grinder|image]
 
 ### TA3 Injetor
 
@@ -804,7 +804,7 @@ O injetor também pode ser alternado para o "modo pull". Então ele apenas retir
 
 A capacidade de processamento é de até 8 vezes um item a cada 4 segundos.
 
-[ta3_injector|imagem]
+[ta3_injector|image]
 
 
 ## Ferramentas
