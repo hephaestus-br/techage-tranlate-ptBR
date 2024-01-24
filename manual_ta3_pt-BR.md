@@ -388,7 +388,7 @@ Os seguintes passos são necessários:
 
 Essa sequência deve ser observada em ambos os lados (encher / esvaziar).
 
-[tank_cart | image]
+[tank_cart|image]
 
 ### Oil transportation with barrels over Minecarts
 
